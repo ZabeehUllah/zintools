@@ -10,7 +10,7 @@ const BottomSection = ({
   handleHoverStyle: (index: number | null) => void;
 }) => {
   return (
-    <div className='flex gap-10 mt-8 ml-5'>
+    <div className='hidden lg:flex gap-10 mt-8 ml-5'>
       {NavLinks.map((link, index) => {
         const isSelected = selectedLink === index;
         return (

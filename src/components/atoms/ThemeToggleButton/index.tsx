@@ -6,7 +6,8 @@ const ThemeToggleButton = () => {
       <button
         data-tooltip-id='ts-tooltip'
         data-tooltip-content='Change Theme'
-        className='flex items-center justify-center w-12 rounded-full aspect-square text-text-dark bg-bg-controls-hover dark:bg-bg-controls'
+        title='Change Theme'
+        className='flex items-center bg-gray-300 justify-center w-12 rounded-full aspect-square text-text-dark bg-bg-controls-hover dark:bg-bg-controls'
       >
         <i className='icon theme-light'>
           <img src='/assets/light.svg' alt='' />

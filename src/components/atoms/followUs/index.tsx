@@ -7,8 +7,8 @@ const FollowUs = () => {
     <div className='flex items-center gap-8 py-8'>
       <span className='text-base font-medium text-text-dark'>Follow us</span>
       <ul className='flex items-center gap-8'>
-        {Socials.map(({ icon, url }) => (
-          <SocialIcons icon={icon} url={url} />
+        {Socials.map(({ id, icon, url }) => (
+          <SocialIcons key={id} icon={icon} url={url} />
         ))}
       </ul>
     </div>
